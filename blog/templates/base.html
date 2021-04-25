@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Immah's Blog</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="{% url 'home' %}">Immah's Blog</a></h1>
+            <link  href="{ static 'css/base.css' %}" rel="stylesheet">
+        </header>
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+</html>
